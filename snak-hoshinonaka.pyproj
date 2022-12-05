@@ -37,7 +37,8 @@
     <Compile Include="snak_hoshinonaka\wsgi.py" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="DockerFile" />
+    <Content Include="Dockerfile" />
+    <Content Include="docker-compose.yml" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
