@@ -10,6 +10,7 @@ from django.test import TestCase
 
 # TODO: Configure your database in settings.py and sync before running tests.
 
+
 class SimpleTest(TestCase):
     """Tests for the application views."""
 
@@ -24,3 +25,7 @@ class SimpleTest(TestCase):
         Tests that 1 + 1 always equals 2.
         """
         self.assertEqual(1 + 1, 2)
+
+
+class SuperUserTest(TestCase):
+    pass
